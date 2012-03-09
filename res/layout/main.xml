@@ -17,7 +17,7 @@
         	android:layout_height="wrap_content"     	
         	android:layout_gravity="center"
         	android:layout_marginBottom="20dip"
-        	android:textSize="20sp"/>
+        	android:textSize="20sp" />
     
    		<TextView
    		    android:text="@string/hello2" 
@@ -25,8 +25,14 @@
         	android:layout_height="wrap_content"     	
         	android:layout_gravity="center"
         	android:layout_marginBottom="20dip"
-        	android:textSize="20sp"/>
-   		   		
+        	android:textSize="20sp" />
+   		
+   		<Button
+        	android:id="@+id/about_button"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"        	
+        	android:text = "@string/about_label" />
+   		    			
     	<Button
         	android:id="@+id/exit_button"
         	android:layout_width="fill_parent"
