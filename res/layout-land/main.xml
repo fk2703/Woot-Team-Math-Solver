@@ -2,11 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
+    android:padding="30dip"
+    android:orientation="horizontal" >
+    
+	<LinearLayout
+	    android:orientation="vertical" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:paddingLeft="20dip"
+    	android:paddingRight="20dip">    	
+    	
+   		<TextView
+   		    android:text="@string/hello" 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"     	
+        	android:layout_gravity="center"
+        	android:layout_marginBottom="20dip"
+        	android:textSize="20sp"/>
+    
+    	<Button
+        	android:id="@+id/exit_button"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	
+        	android:text = "@string/exit_label" />
+    	
+	</LinearLayout>
 </LinearLayout>

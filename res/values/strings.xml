@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello, dear user! \n I will solve the quadratic equations for you!</string>
+    <string name="hello"> Hello, dear user!</string>
+    <string name="hello2">I will solve the quadratic equations for you!</string>
     <string name="app_name">Woot Team Math Solver</string>
     <string name="about_label">About Solver and Woot Team</string>
     <string name="exit_label">Exit</string>
